@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+*/venv/
+**/venv/
+
+
+# Ignore Django SQLite database
+db.sqlite3
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Django migration files
+*/migrations/
+!*/migrations/__init__.py
+
+# Ignore user-uploaded/media files
+files/
+
+
+# Ignore FAISS vector store files
+vector.index
+metadata.pkl
+
+# Ignore VSCode or PyCharm project settings (optional)
+.vscode/
+.idea/
+
+# Ignore macOS or system files
+.DS_Store
+Thumbs.db
